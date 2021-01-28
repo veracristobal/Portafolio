@@ -20,7 +20,7 @@
 <body>
 
 	<!--NAVEGADOR-->
-	<nav class="navbar navbar-expand-lg navbar-light ">
+	<nav class="navbar navbar-expand-lg navbar-light " id="nav">
 	  <div class="container">
 	  <a class="navbar-brand logo text-white mr-auto" href="#"> C~V </a>
 	  
@@ -31,10 +31,10 @@
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    
 	    <div class="navbar-nav ml-auto links">
-	      <a class="nav-link text-white" href="#">Sobre Mi</a>
-	      <a class="nav-link text-white" href="#">Experiencia</a>
-	      <a class="nav-link text-white" href="#">Mis trabajos</a>
-	      <a class="nav-link text-white" href="#">Contacto</a>
+	      <a class="nav-link text-white" href="#acerca-de-mi">Sobre Mi</a>
+	      <a class="nav-link text-white" href="#experiencia">Experiencia</a>
+	      <a class="nav-link text-white" href="#mis-trabajos">Mis trabajos</a>
+	      <a class="nav-link text-white" href="#contacto">Contacto</a>
 	      
 	    </div>
 	  
@@ -45,7 +45,7 @@
 
 	<!--HERO SECTION-->
 
-	<header class="container-fluid text-center ">
+	<header class="container-fluid text-center " id="hero">
 		<div class="texto-header text-white">
 			<h1 id="arriba">YO SOY</h1>
 			<hr class="bg-light" style="width: 19rem">
@@ -55,7 +55,7 @@
 	
 
 	<!--SECCION ACERCA DE MI-->
-	<section id="acerca-de-mi">
+	<section id="acerca-de-mi" class="d-none d-md-block">
 		
 			<div class="container">
 				<h4 class="text-center font-weight-bold mb-4">
@@ -94,7 +94,7 @@
 	
 	</section>
 	<!--SECCION MI EXPERIENCIA-->
-	<section id="experiencia">
+	<section id="experiencia" class="mt-5">
 		
 		<div class="container">
 			<h2 class="text-center font-weight-bold display-4">MI EXPERIENCIA</h2>
@@ -147,7 +147,7 @@
 
 	</section>
 	<!--SECCION CARTAS CON TRABAJOS-->
-	<section class="container-fluid trabajos">
+	<section class="container-fluid trabajos" id="mis-trabajos">
 		<h2 class="text-center font-weight-bold display-4 text-light">MIS ÚLTIMOS TRABAJOS</h2>
 		<hr class="bg-light" style="width: 8rem">
 		
@@ -377,12 +377,12 @@
 		<div class="row">
 			
 			<div class="col-12 col-md-6 text-center">
-				<a href="#" class="logo-footer text-light"> C~V</a>
+				<a href="#nav" class="logo-footer text-light"> C~V</a>
 			</div>		
 			
 			<div class="col-12 col-md-6 text-center">
 				<i class="fab fa-linkedin fa-5x text-light "></i>
-				<i class="fab fa-github-square fa-5x text-light i-1"></i>
+				<a href="https://github.com/veracristobal" target="_blank"><i class="fab fa-github-square fa-5x text-light i-1"></i></a>
 				<i class="fab fa-twitter-square fa-5x text-light i-2"></i>
 				<i class="fab fa-facebook-square fa-5x text-light "></i>
 			</div>
