@@ -1,0 +1,105 @@
+
+body{
+	font-family: 'Cabin', sans-serif;
+}
+
+
+/*NAV*/
+
+nav{
+	position: fixed;
+}
+
+.logo{
+	font-family: 'Lobster';
+	font-size: 2rem
+}
+
+/*HERO SECTION*/
+#hero{
+	padding-left: 0
+}
+
+.boton{
+	border-color: black
+}
+.data-container{
+	background-color: black;
+	color: white
+}
+
+
+.carousel-indicators li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+.carrusel{
+	height: 250px;
+	background-color: gre
+}
+
+@media (max-width: 320px) {
+ h1 {
+ 	margin: auto
+ }
+}
+/*HR'S*/
+hr {
+  
+ 
+  border-style: inset;
+  border-width: 1px;
+  background-color:#333
+}
+
+.hr {
+  display: inline-block;
+}
+.hr:after {
+  content: '';
+  display: block;
+  border-top: 1px solid black;
+  margin-top: 0.2em;
+}
+
+/*SECCION INGREDIENTES*/
+
+.titulo_ingredientes_preparacion{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.texto-seccion{
+	font-size: 1.2rem
+}
+
+#preparacion p{
+	margin-bottom: 3rem
+}
+
+/*SECCION CARTAS RECETAS*/
+
+.titulo-recetas{
+	font-size: 2.7rem
+}
+
+.titulo-carta{
+	font-size: 1.5rem;
+	font-weight: bold;	
+}
+.seccion-cartas{
+	margin-bottom: 5rem
+}
+
+.carta{
+	margin-bottom: 1rem
+}
+
+/*FOOTER*/
+
+.logo-footer{
+	font-family: 'Lobster';
+	font-size: 2rem
+}

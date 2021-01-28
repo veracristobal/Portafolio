@@ -1,0 +1,138 @@
+body{
+	background: #000000;
+	color: #ffffff;
+	font-family: "Raleway";
+	margin: 0
+}
+
+header{
+	margin:0;
+	height: 150px;
+	background:#000000;}
+
+header h1{
+	text-align: center;
+	font-weight: 500;
+	font-size: 120px;
+	margin-top: 30px
+}
+.encabezado img{
+	width: 100%
+}
+
+
+
+.texto{
+	display: inline-block;
+	width: 1200px;
+	height: 312px;
+	padding-top: 200px;
+	padding-right: 400px;
+	padding-bottom: 300px;
+	padding-left: 400px;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: left;
+	vertical-align: top;
+	margin: 0;
+	opacity: 2
+}
+
+
+
+.imagen{
+	display: inline-block;
+	height: 700px;
+	width: 1300px;
+	padding-top: 150px;
+	padding-bottom: 180px;
+	vertical-align:top;
+
+}
+
+.imagen img{
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+.caracteristicas{
+	background: #1e1a13;
+	font-size: 80px;
+	padding-top: 170px;
+	font-weight: 500;
+
+}
+
+.caracteristicas h2{
+	text-align: center;
+
+}
+.caracteristicas p{
+	display: inline-block;
+	font-weight: 300;
+	padding-bottom: 170px;
+	text-align: left;
+	font-size: 70px
+	
+}
+
+.caracteristicas i{
+	display: inline-block;
+}
+	
+.fa-eye{
+	padding-left : 990px;
+	padding-right: 670px;
+	
+}
+
+.fa-hand-peace{
+	margin-right: 670px ;
+	padding-top: 100px
+}
+
+.tercer{
+	padding-left : 900px;
+	padding-right: 490px;
+
+}
+.pacificas{
+	padding-right: 370px
+
+}
+
+.fotos{
+	padding-top: 220px;
+	padding-bottom:220px;
+
+
+}
+
+.imagen1{
+	padding-left: 600px;
+	padding-right:80px
+}
+.imagen2{
+	padding-right: 80px
+}
+.imagen3{
+	padding-right: 450px
+}
+
+footer{
+	background: #1e1a13;
+	text-align:center;
+	color: #ffffff;
+	font-weight: 300;
+	margin bottom: 0
+}
+
+footer p{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 50px
+
+
+}
