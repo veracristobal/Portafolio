@@ -1,0 +1,129 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+/*NAV*/
+.navbar{
+	background-color: #2d5986;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	width: 100%
+}
+.logo{
+	font-family: 'Trade Winds', cursive;
+	font-size: 2rem;
+	text-decoration: none;
+	color: black;
+	
+
+
+
+}
+/*HEADER*/
+header{
+	background-image: url(../img/hero-section.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 10rem
+
+}
+
+#arriba{
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px
+}
+
+#abajo{
+	font-family: 'Oswald', bold;
+	font-size: 70px
+}
+
+.texto-header{
+	padding-top: 300px;
+	padding-bottom: 200px;
+	vertical-align: center;
+
+}
+
+/*ACERCA DE MI*/
+#acerca-de-mi{
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 3rem;
+	margin-top:5rem;
+	margin-bottom: 3.5rem
+}
+
+#acerca-de-mi p{
+	font-size: 1.125rem
+}
+
+.parrafo-yo{
+	line-height: 2.5;
+	margin-right: 50px
+}
+
+/*SECCION CARRUSEL*/
+
+#experiencia{
+	padding-bottom: 9rem
+}
+.contenido-carrusel{
+	align-content: center;
+}
+
+
+
+/*SECCION DE TRABAJOS*/
+.trabajos{
+	background-color:  #2d5986;
+	padding-top: 5rem;
+	padding-bottom: 6rem
+}
+.card{
+	margin-bottom: 2.5rem
+}
+
+.trabajos hr{
+	margin-bottom: 3.3rem
+}
+
+
+/*CONTACTO*/
+
+#contacto{
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+	background-color: #2d5986
+}
+
+.contenido-footer{
+	padding-top: 4.5rem;
+	padding-bottom: 5rem;
+}
+
+.logo-footer{
+	font-family: 'Trade Winds', cursive;
+	font-size: 4rem;
+	text-decoration: none;
+	color: black;
+}
+
+.i-1{
+	margin-left: 2rem;
+	margin-right: 1rem; 
+}
+
+.i-2{
+	margin-left: 1rem;
+	margin-right: 2rem
+}
+
